@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Biểu mẫu</title>
+</head>
+<body>
+<form name="dangkikiti" action="" method="post">
+<div>
+    <label> họ tên</label>
+    <input type="text" name="họ tên" value="" placeholder="nhập họ tên vào đây">
+
+</div>
+    <div>
+        <label>số điện thoại</label>
+        <input type="number" name="sodienthoai" value="" placeholder="nhập số điện thoại">
+    </div>
+    <div>
+        <label> Email</label>
+        <input type="email" name="email" value="" placeholder="nhap email vào đây">
+    </div>
+    <div>
+    <label>Password</label>
+    <input type="password" name="password" value="">
+    </div>
+    <div>
+        <label>Input ẩn</label>
+        <input type="hidden" name="id" value="">
+    </div>
+    <div>
+        <p>Nội dung</p>
+        <textarea name="noidung" rows="25"></textarea>
+    </div>
+    <div>
+        <label>giới tính</label>
+        <input type="radio" name="giioitinh" value="nu">nu
+        <input type="radio" name="gioitinh" value="nam" checked>nam
+    </div>
+    <div>
+        <label>Tháng</label>
+        <select name="thang" >
+            <option value="1">tháng 1</option>
+            <option value="2">tháng 2</option>
+            <option value="3">tháng 3</option>
+            <option value="4">tháng 4</option>
+            <option value="5">tháng 5</option>
+            <option value="6">tháng 6</option>
+            <option value="7">tháng 7</option>
+            <option value="8">tháng 8</option>
+            <option value="9" selected>tháng 9</option>
+            <option value="10">tháng 10</option>
+            <option value="11">tháng 11</option>
+            <option value="12">tháng 12</option>
+        </select>
+    </div>
+        <div>
+            <label>monhoc</label>
+            <select name="monhoc"  multiple >
+                <option value="toan">toán</option>
+                <option value="van">văn</option>
+                <option value="anh">anh</option>
+                <option value="ly">lý </option>
+                <option value="hoa">hóa</option>
+                <option value="su">sử</option>
+                <option value="dia">địa</option>
+                <option value="triet">triết học</option>
+            </select>
+        </div>
+    <div>
+        <input type="checkbox" name="dongy" value="1">
+        nhập các thông tin và chương trình khuyến mãi của tiki qua email. Khi bạn nhấn đăng ký, bạn đã đồng ý thực hiện
+    </div>
+    <div>
+        <input type="submit" name="submit" value="Gửi dữ liệu">
+        <button> không gửi dữ liệu</button>
+    </div>
+</form>
+</body>
+</html>
